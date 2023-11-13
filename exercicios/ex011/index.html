@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem Dinamica</title>
+</head>
+<body>
+  <h1>Imagens Dinamicas</h1>
+  <p>
+    Veja como as imagens abaixo em diferentes telas ou diminua o tamanho da 
+    janela de seu navegador
+  </p>
+  <picture>
+    <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+  </picture>
+
+  <h1>Audios</h1>
+  <p>Nego Drama- Racionais</p>
+  <audio preload="metadata" controls>
+    <source src="midia/nego-drama.mp3" type="audio/mpeg">
+    <source src="midia/nego-drama.ogg" type="audio/ogg">
+    <source src="midia/nego-drama.wav" type="audio/wav">
+    <p>Não foi possivel executar o audio, faça o <a href="midia/nego-drama.mp3" download="nego-drama.mp3" type="audio/mpeg">dawnload</a> do arquivo</p>
+  </audio>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'grafite';
+  src: url(fonts/THE_JACATRA.otf) format(truetype);
+}
+
+h1 {
+  font-family: 'grafite';
+  font-size: 50px;
+  text-align: center;
+}
