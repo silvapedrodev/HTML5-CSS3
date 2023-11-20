@@ -15,6 +15,7 @@
   padding: 0;
 }
 
+
 html, body {
   background-color: darkgray;
   min-height: 100vh;
@@ -31,7 +32,7 @@ header > h1 {
   padding-top: 50px;
   font-variant: small-caps;
   font-family: var(--font02);
-  font-size: 7.5vw;
+  font-size: 3em;
 }
 
 header > p {
@@ -54,7 +55,7 @@ section {
   padding-left: 30px;
   line-height: 2em;
   font-family: var(--font03);
-  font-size: 3.5vw;
+  font-size: 1.2em;
 }
 
 section > p {
@@ -96,4 +97,15 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+@media (min-width:700px) {
+  header > h1 {
+    font-size: 6em;
+  }
+
+  section {
+    font-size: 2.4em;
+  }
+  
 }
