@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclado</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color:rgb(46, 46, 46);
+      text-align: center;
+      margin: auto;
+    }
+
+    table {
+      font-weight: bold;
+      color: #FC0FC0;
+      
+      background-color: #FC0FC0;
+      box-shadow: 1px 1px 25px #fc0fc156;
+      padding: 1px;
+      border-radius: 10px;
+      border-spacing:8px;
+      margin: auto;
+    }
+
+
+    td {
+      border: 1px solid rgb(39, 20, 20);
+      border-radius: 10px;
+      
+      text-align: center;
+      text-shadow: 1px 1px 5px #fc83dec7;
+      box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.668);
+      
+      width: 50px;
+      height: 60px;
+      padding: 10px;
+
+      background-color: black;
+    }
+
+    td:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+
+    .up > table{
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Semi-Teclado</h1>
+  </div>
+  <div class="num">
+    <table>
+      <tr>
+        <td>NUMLOK</td>
+        <td>/</td>
+        <td>*</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>7 <br> HOME</td>
+        <td>8 <br>⇧</td>
+        <td>9 <br> PGUP</td>
+        <td rowspan="2">+</td>
+      </tr>
+      <tr>
+        <td>4 <br>⇦</td>
+        <td>5</td>
+        <td>6 <br>⇨</td>
+      </tr>
+      <tr>
+        <td>1 <br> END</td>
+        <td>2 <br>⇩</td>
+        <td>3 <br> PGDN</td>
+        <td rowspan="2">ENTER</td>
+      </tr>
+      <tr>
+        <td colspan="2">0 <br>INS</td>
+        <td>. <br> DEL</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
