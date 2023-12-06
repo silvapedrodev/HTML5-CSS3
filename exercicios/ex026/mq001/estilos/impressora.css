@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Estilos para impressoras */
+
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-family: 1em;
+  line-height: 1.5em;
+}
+
+menu {
+  display: none;
+}
+
+article {
+  margin-top: -40px;
+}
+
+article::after {
+  font-size: 0.6em;
+  content: 'Essa página foi impressa através do github https://github.com/killera12';
+}
+
