@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoints
+  -----------------------------
+
+  telas pequenas (XS): Menos de 576px
+  Celular (SM): 576px - 767px
+  Tablet (MD): 768px - 991px
+  Desktop (LG): 992px - 1199px
+  Telas grandes (XL): 1200px e acima
+  */
+
+  @media screen and (min-width: 768px) {
+    span#burguer {
+      display: none;
+    }
+
+    menu {
+      display: block;
+    }
+
+    menu li {
+      display: inline-block;
+      margin-left: 8px;
+    }
+
+    menu a {
+      border-radius: 3px;
+    }
+
+    main {
+      width: 768px;
+    }
+  }
